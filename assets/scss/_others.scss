@@ -1,0 +1,79 @@
+// breadcrumbs color 
+ul.v-breadcrumbs {
+    li {
+        a{
+            color: #2B3445;  
+        }
+    }
+}
+
+
+
+nav.food-truck-pagination {
+    .v-pagination__item {
+        box-shadow: none;
+    }
+    .v-pagination__navigation {
+        box-shadow: none;
+        border:1px solid #d23f57 !important;
+        i {
+            color: #d23f57;
+        }
+    }
+    .v-pagination__item--active {
+        color: #d23f57 !important;
+        box-shadow: none;
+    }
+    .primary {
+        background-color: transparent !important;
+        border:1px solid #d23f57 !important;
+    }
+}
+
+
+
+// form-location 
+.form-location {
+    button.btn-location {
+        border-right: 1px solid #DAE1E7;
+        
+    }
+    input{
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+
+
+// avatar-upload 
+.cover-img {
+    overflow: visible !important;
+    @media(max-width: 959px) {
+        overflow: hidden;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .cover-image-content {
+        margin-bottom: -22px;
+        @media (max-width: 959px) {
+            margin-bottom: 0;
+            
+        }
+    }
+    .avatar-upload {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        
+        img {
+            border: 4px solid #fff;
+        }
+        .avatar-upload-btn {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+}

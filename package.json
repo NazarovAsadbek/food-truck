@@ -1,0 +1,25 @@
+{
+  "name": "food-truck",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "core-js": "^3.18.1",
+    "nuxt": "^2.15.8",
+    "vuetify": "^2.5.8"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.5",
+    "@babel/preset-env": "7.15.6",
+    "@nuxtjs/vuetify": "^1.12.1",
+    "fibers": "^5.0.0",
+    "sass": "^1.38.1",
+    "sass-loader": "^10.2.0"
+  }
+}
